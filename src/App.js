@@ -1,10 +1,12 @@
 import Form from "./components/Form"
-import "./App.css"
+import "./cyborg_bootstrap.css"
 
 function App() {
   return (
-    <div className="App">
-      <Form />
+    <div className="row">
+      <div class="col">
+        <Form />
+      </div>
     </div>
   )
 }
